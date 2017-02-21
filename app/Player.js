@@ -1,18 +1,17 @@
 "use strict";
 
-var React = require("react-native");
-var {
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-  Component,
-  ActivityIndicatorIOS,
-  ListView,
-  Dimensions,
-  Modal
-} = React;
+import React, { Component } from 'react';
+import {
+    View,
+    Image,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    ActivityIndicatorIOS,
+    ListView,
+    Dimensions,
+    Modal,
+} from 'react-native';
 
 var Icon = require("react-native-vector-icons/FontAwesome"),
     getImage = require("./helpers/getImage"),

@@ -1,14 +1,14 @@
 "use strict";
 
-var React = require("react-native");
-var {
-  ActivityIndicatorIOS,
-  ListView,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} = React;
+import React, { Component } from 'react';
+import {
+    View,
+    ActivityIndicatorIOS,
+    ListView,
+    StyleSheet,
+    Text,
+    TextInput,
+} from 'react-native';
 
 var api = require("./helpers/api");
 

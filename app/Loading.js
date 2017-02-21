@@ -1,9 +1,9 @@
-var React = require("react-native");
-var {
-  ActivityIndicatorIOS,
-  StyleSheet,
-  View,
-} = React;
+import React, { Component } from 'react';
+import {
+    View,
+    ActivityIndicatorIOS,
+    StyleSheet,
+} from 'react-native';
 
 var Loading = React.createClass({
   render: function() {

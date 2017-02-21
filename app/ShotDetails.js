@@ -1,21 +1,19 @@
 "use strict";
 
-var React = require("react-native");
-var {
-  Image,
-  PixelRatio,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  TouchableHighlight,
-  ActivityIndicatorIOS,
-  View,
-  ListView,
-  Component,
-  Dimensions,
-  Modal
-} = React;
+import React, { Component } from 'react';
+import {
+    Image,
+    PixelRatio,
+    ScrollView,
+    StyleSheet,
+    Text,
+    TouchableOpacity,
+    TouchableHighlight,
+    ActivityIndicatorIOS,
+    ListView,
+    Dimensions,
+    Modal,
+} from 'react-native';
 
 var api = require("./helpers/api");
 

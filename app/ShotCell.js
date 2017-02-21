@@ -1,15 +1,14 @@
 "use strict";
-
-var React = require("react-native");
-var {
-  Image,
-  PixelRatio,
-  StyleSheet,
-  Text,
-  TouchableHighlight,
-  View,
-  Dimensions
-} = React;
+import React, { Component } from 'react';
+import {
+    View,
+    Image,
+    PixelRatio,
+    StyleSheet,
+    Text,
+    TouchableHighlight,
+    Dimensions,
+} from 'react-native';
 
 var getImage = require("./helpers/getImage"),
     screen = Dimensions.get('window');
